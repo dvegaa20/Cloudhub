@@ -1,0 +1,7 @@
+export { default as Blog } from './blog/Blog'
+export { default as Clients } from './clients/Clients'
+export { default as Features } from './features/Features'
+export { default as Footer } from './footer/Footer'
+export { default as Funcionality } from './funcionality/Funcionality'
+export { default as Hero } from './hero/Hero'
+export { default as Hero2 } from './hero2/Hero2'
