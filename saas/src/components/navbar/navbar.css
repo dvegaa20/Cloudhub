@@ -1,0 +1,145 @@
+.saas__navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 2rem 6rem;
+}
+
+.saas__navbar-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.saas__navbar-links-logo {
+    margin-right: 2rem;
+}
+
+.saas__navbar-links-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.saas__navbar-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.saas__navbar-links-container p,
+.saas__navbar-sign p,
+.saas__navbar-menu-container p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+.saas__navbar-sign button,
+.saas__navbar-menu-container button {
+    background: var(--color-gradient);
+    display: flex;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.4375rem;
+    border: 0;
+    outline: none;
+    
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.saas__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.saas__navbar-menu svg {
+    cursor: pointer;
+}
+
+.saas__navbar-menu-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+
+    text-align: end;
+    background: var(--color-section);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    min-width: 210px;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+     
+}
+
+.saas__navbar-menu-container p {
+    margin: 1rem 0;
+}
+
+.saas__navbar-menu-container-links-sign {
+    display: none;
+}
+
+@media screen and (max-width: 1050px) {
+    .saas__navbar-links-container {
+        display: none;
+    }
+
+    .saas__navbar-menu {
+        display: flex;
+    }
+
+    .saas__navbar-menu__container-links-sign {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .saas__navbar {
+        padding: 2rem 4rem;
+    }
+
+    .saas__navbar-sign {
+        display: none;
+    }
+
+    .saas__navbar-menu__container-links-sign {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .saas__navbar {
+        padding: 2rem 4rem;
+    }
+
+    .saas__navbar-sign {
+        display: none;
+    }
+
+    .saas__navbar-menu-container {
+        top: 20px;
+    }
+
+    .saas__navbar-menu__container-links-sign {
+        display: block;
+    }
+}

@@ -5,6 +5,6 @@
 
     --color-bg: #000000;
     --color-section: #282828;
-    --color-blog: #ff5f00;
+    --color-gradient: linear-gradient(315deg, #FB432C 0%, #FF591E 100%);
     --color-txt-card: #9D9FA1;
 }
