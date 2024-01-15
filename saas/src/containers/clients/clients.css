@@ -1,0 +1,15 @@
+.saas__clients {
+    display: flex;
+    padding: 2rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.saas__clients-images {
+    display: flex;
+    width: 80rem;
+    justify-content: space-between;
+    align-items: center;
+}

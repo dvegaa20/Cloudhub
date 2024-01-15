@@ -1,0 +1,7 @@
+export { default as Patreon } from '../assets/patreon.svg'
+export { default as Airbnb } from '../assets/airbnb.svg'
+export { default as Fiberplane } from '../assets/fiberplane.svg'
+export { default as Coinbase } from '../assets/coinbase.svg'
+export { default as Griffin } from '../assets/griffin.svg'
+export { default as Help_Scout } from '../assets/help_scout.svg'
+export { default as Plaid } from '../assets/plaid.svg'

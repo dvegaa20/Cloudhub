@@ -1,0 +1,66 @@
+.saas__hero {
+    display: flex;
+    background: var(--color-section);
+}
+
+.saas__hero-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.saas__hero-content h1 {
+    font-family: var(--font-family);
+    font-size: 5.25rem;
+    font-weight: 600;
+    line-height: 5.5625rem;
+    letter-spacing: -0.21875rem;
+
+    color: #fff;
+    text-align: center;
+    width: 74.5rem;
+}
+
+.saas__hero-content p{
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.1875rem;
+
+    color: var(--color-txt-card);
+    text-align: center;
+}
+
+
+.saas__hero-content button {
+    background: var(--color-gradient);
+    display: flex;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.4375rem;
+    border: 0;
+    outline: none;
+    
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.saas__hero-content__quickstart p{
+    font-family: var(--font-family);
+    line-height: 2.1875rem;
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: -0.00875rem;
+
+    color: var(--color-txt-card);
+    text-align: center;
+}
+
