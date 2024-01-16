@@ -1,0 +1,105 @@
+.saas__features {
+    display: flex;
+    background: var(--color-section);
+    padding: 5.5rem 4.8125rem;
+    flex-direction: column;
+    align-self: stretch;
+}
+
+.saas__features-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4.8125rem;
+}
+
+.saas__features-content-left{
+    display: flex;
+    width: 34.1875rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.5rem;
+}
+
+.saas__features-content__header button{
+    color: #fff;
+    display: flex;
+    padding: 0.25rem 0.875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+
+    background: var(--color-gradient);
+    border-radius: 6.25rem;
+    border: none;
+    outline: none;
+}
+
+.saas__features-content__header h2{
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 3.375rem;
+    font-weight: 600;
+    line-height: 3.9375rem;
+    letter-spacing: -0.09375rem;
+}
+
+.saas__features-content__info p{
+    color: var(--color-txt-card);
+    font-family: var(--font-family);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.saas__features-content__icons, .saas__features-content__video {
+    display: flex;
+    width: 34.1875rem;
+    align-items: flex-start;
+    align-content: flex-start;
+    gap: 1.75rem;
+    flex-wrap: wrap;
+}
+
+.saas__features-content__icons, .saas__features-content__video p {
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+}
+
+.saas__features-content__icons img {
+    padding: 0.35rem;
+    border-radius: 6.25rem;
+    background: #282828;
+}
+
+.saas__features-content__video img {
+    background: var(--color-gradient);
+    border-radius: 6.25rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.saas__features-content-right {
+    background: #282828;
+    display: flex;
+    width: 41rem;
+    height: 29.8125rem;
+    padding: 4.375rem 3.9375rem 4.375rem 3.875rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.saas__features-demo__frame {
+    background: #FFF;
+    display: flex;
+    width: 33.1875rem;
+    height: 21.0625rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
