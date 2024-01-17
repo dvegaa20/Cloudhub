@@ -103,3 +103,13 @@
     align-items: center;
     border-radius: 1.5rem;
 }
+
+.saas__features-second-content-right {
+    background: #282828;
+    display: flex;
+    width: 41rem;
+    padding: 3.0625rem 9.3125rem 4.1875rem 9.3125rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}

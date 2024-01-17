@@ -1,0 +1,72 @@
+.saas__functionality {
+    background: var(--color-gradient);
+    display: flex;
+    padding: 5rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.saas__functionality-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+
+.saas__functionality-header {
+    display: flex;
+    width: 90rem;
+    padding: 0rem 5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.saas__functionality-header p{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+}
+
+.saas__functionality-header h2{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 3.375rem;
+    font-weight: 600;
+    line-height: 3.9375rem;
+    letter-spacing: -0.09375rem;
+}
+
+.saas__functionality-content {
+    display: flex;
+    height: 33.8125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5625rem;
+}
+
+.saas__funcionality-top_content {
+    background: var(--color-bg);
+    display: flex;
+    width: 71.875rem;
+    padding: 0rem 2.5625rem 5.6875rem 2.5625rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+
+.saas__funcionality-bottom_content {
+    display: flex;
+    width: 72rem;
+    height: 10.875rem;
+    padding: 0.0625rem 0.0625rem 0rem 0.125rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+}

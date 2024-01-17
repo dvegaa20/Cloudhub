@@ -1,0 +1,30 @@
+.saas__card-container {
+    background: var(--color-bg);
+    padding: 1rem 1.5rem;
+    width: 23.5rem;
+    height: 10.8125rem;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+}
+
+.saas__card-icon img{
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+}
+
+.saas__card-title__func h3{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.saas__card-description p{
+    color: #737373;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
