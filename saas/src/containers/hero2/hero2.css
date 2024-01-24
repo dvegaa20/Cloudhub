@@ -1,0 +1,61 @@
+.saas__hero2 {
+    background: var(--color-gradient);
+    display: flex;
+    padding: 5rem 5rem 0rem 5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.saas__hero2-jumbo {
+    color: #FFF;
+    display: flex;
+    width: 58.8125rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75rem;    
+}
+
+.saas__hero2-header h2 {
+    font-family: var(--font-family);
+    font-size: 3.9375rem;
+    font-weight: 600;
+    line-height: 4.5625rem;
+    letter-spacing: -0.15625rem;
+    width: 48.6875rem;
+    text-align: center;
+}
+
+.saas__hero2-text p{
+    font-family: var(--font-family);
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2.1875rem; 
+    width: 30.3125rem;
+    text-align: center;
+}
+
+.saas__hero2-button button {
+    background: #FFF;
+    display: flex;
+    padding: 0.625rem 1.25rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2.4375rem;
+    border: 0;
+    outline: none;
+    
+    color: #000000;
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem;
+}
+
+.saas__hero2-image {
+    width: 63.375rem;
+    height: 31.5625rem;
+}
