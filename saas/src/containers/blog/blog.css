@@ -1,5 +1,4 @@
 .saas__blog-container {
-    display: flex;
     height: 45.4375rem;
     padding: 5rem;
     flex-direction: column;
@@ -11,7 +10,7 @@
 
 .saas__blog-header {
     display: flex;
-    padding: 0rem 5rem;
+    padding: 5rem 5rem;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
@@ -82,4 +81,119 @@
     font-weight: 400;
     line-height: 1.75rem;
     text-align: center;
+}
+
+.saas__blog-container2 {
+    height: 35.75rem;
+    padding-top: 5rem;
+}
+
+.saas__blog-content2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15rem;
+}
+
+.saas__blog-left, .saas__blog-right {
+    width: 34.5rem;
+    height: 29.75rem;
+}
+
+.saas__blog-left img, .saas__blog-right img{
+    display: flex;
+    width: 3.24963rem;
+    height: 3.24963rem;
+    padding: 0.56869rem 0.58906rem 0.60931rem 0.58894rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.saas__blog-left p, .saas__blog-right p{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.saas__blog-left_person , .saas__blog-right_person {
+    padding: 2rem 0rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.saas__blog-left_person img , .saas__blog-right_person img{
+    width: 2.5rem;
+    height: 2.5rem;
+    flex-shrink: 0;
+}
+
+.saas__blog-left_person-content , .saas__blog-right_person-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.0625rem;
+}
+
+.saas__blog-left_person-content h5 , .saas__blog-right_person-content h5{
+    color: #FFF;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.625rem;
+}
+
+.saas__blog-left_person-content p , .saas__blog-right_person-content p{
+    color: var(--color-txt-card);
+    font-family: var(--font-family);
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.375rem;
+}
+
+.saas__blog-container3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3.5rem;
+    align-self: stretch;
+}
+
+.saas__blog-container3-header{
+    display: flex;
+    width: 90rem;
+    padding: 0rem 5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.saas__blog-container3-header h2{
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 3.375rem;
+    font-weight: 600;
+    line-height: 3.9375rem; 
+    letter-spacing: -0.09375rem;
+}
+
+.saas__blog-container3-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    align-self: stretch;
+}
+
+.saas__blog-container3-top, .saas__blog-container3-bottom {
+    display: flex;
+    width: 80rem;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
 }

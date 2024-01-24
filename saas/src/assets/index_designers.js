@@ -1,0 +1,8 @@
+export { default as CrowdStrike } from '../assets/crowdsrtike.svg'
+export { default as Airbus } from '../assets/airbus.svg'
+export { default as Hays } from '../assets/hays.svg'
+export { default as Sentry } from '../assets/sentry.svg'
+export { default as Medwing } from '../assets/medwing.svg'
+export { default as Cathay_Pacific } from '../assets/cathay_pacific.svg'
+export { default as Liquid_Web } from '../assets/liquid_web.svg'
+export { default as Autotrader } from '../assets/autotrader.svg'

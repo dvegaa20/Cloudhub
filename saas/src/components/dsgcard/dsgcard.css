@@ -1,0 +1,17 @@
+.saas__dsgcard {
+    background: var(--color-section);
+    display: flex;
+    width: 18.5rem;
+    height: 9rem;
+    padding: 0.9375rem 2.5rem 1.0625rem 2.5625rem;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 1.5rem;
+}
+
+.saas__dsgcard__image{
+    width: 13.4375rem;
+    height: 7rem;
+    flex-shrink: 0;
+}

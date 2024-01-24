@@ -1,6 +1,6 @@
 import React from 'react'
 import './clients.css'
-import { Patreon, Airbnb, Fiberplane, Coinbase, Griffin, Help_Scout, Plaid } from '../../assets'
+import { Patreon, Airbnb, Fiberplane, Coinbase, Griffin, Help_Scout, Plaid } from '../../assets/index_clients'
 
 const Clients = () => {
   return (
