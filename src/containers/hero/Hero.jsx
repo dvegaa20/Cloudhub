@@ -13,9 +13,7 @@ const Hero = () => {
           pocket.
         </p>
         <button type="button">Start for free</button>
-        <p href="#" className="contact-link">
-          Want to talk or get a live demo? Get in touch →
-        </p>
+        <p>Want to talk or get a live demo? Get in touch →</p>
       </div>
       <div className="image-overlay-container">
         <img src={tree} alt="Árbol de líneas curvas" className="tree-image" />

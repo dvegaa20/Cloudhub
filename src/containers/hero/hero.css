@@ -92,3 +92,82 @@
   z-index: 2;
   margin-top: -250px;
 }
+
+@media (max-width: 1150px) {
+  .saas__hero-content h1 {
+    font-size: 4rem;
+    line-height: 4rem;
+    width: 45rem;
+  }
+
+  .saas__hero-content p* {
+    font-size: 1.3rem;
+  }
+
+  .image-overlay-container {
+    margin-top: 5rem;
+  }
+
+  .tree-image {
+    width: 900px;
+    margin-top: -270px;
+  }
+
+  .icons-image {
+    width: 900px;
+    margin-top: -200px;
+  }
+}
+
+@media screen and (max-width: 980px) {
+  .image-overlay-container {
+    margin-top: 8rem;
+  }
+  .tree-image {
+    width: 800px;
+  }
+
+  .icons-image {
+    width: 800px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .saas__hero-content h1 {
+    font-size: 3.8rem;
+    width: 40rem;
+  }
+
+  .saas__hero-content p* {
+    font-size: 1.2rem;
+  }
+
+  .tree-image {
+    width: 700px;
+  }
+
+  .icons-image {
+    width: 700px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .saas__hero-content h1 {
+    font-size: 3.5rem;
+    width: 33rem;
+  }
+
+  .saas__hero-content p* {
+    font-size: 1rem;
+  }
+
+  .tree-image {
+    width: 500px;
+    margin-top: -220px;
+  }
+
+  .icons-image {
+    width: 500px;
+    margin-top: -180px;
+  }
+}
